@@ -87,7 +87,8 @@ nav-items {
 
 
 .image-block .meeting {
-    width: 100%;
+    max-width: 100%;
+    display: block;
 }
 
 /* second section */
@@ -100,12 +101,14 @@ nav-items {
     margin:0 auto;
 }
 .section-title {
+    max-width: 720px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 72px;
     font-family: 'Lato', sans-serif;
+    text-align: center;
 
 }
 .title1 {
@@ -333,8 +336,13 @@ nav-items {
 .block-3:nth-child(3) {
     background-image: linear-gradient(#BC3A41, #BC3A41);
 }
+
+
 .burger-bar {
     display: none;
+}
+.burger-bar:hover {
+    cursor: pointer;
 }
 
 

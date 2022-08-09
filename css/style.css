@@ -66,6 +66,7 @@ nav-items {
     margin: 47px;
 }
 .hand {
+    max-width: 24px;
     margin-left: 2px;
     margin-right: 4px;
 }
@@ -112,6 +113,7 @@ nav-items {
 
 }
 .title1 {
+    max-width: 100px;
     size: 20px;
     color: #3D37F1;
     margin-bottom: 17px;
@@ -119,7 +121,8 @@ nav-items {
 
 }
 .title2 {
-    size: 100px;
+    max-width: 300px;
+    size: 40px;
     color: #5A5454;
     margin-bottom: 20px;
     font-family: 'Lato', sans-serif;
@@ -128,11 +131,12 @@ nav-items {
 .title-text {
     font-size: 18px;
     color: #747474;
-    width: 700px;
+    width: 600px;
     text-align: center;
     line-height: 30px;
     margin-bottom: 67px;
     font-family: 'Lato', sans-serif;
+    text-align: center;
 
 }
 
